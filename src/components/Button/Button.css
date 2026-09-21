@@ -1,0 +1,58 @@
+.custom-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  margin: 4px;
+}
+
+/* Primary */
+.custom-button--primary {
+  background-color: var(--amarillo) !important;
+}
+
+.custom-button--primary:hover {
+  background-color: var(--amarillo-hover) !important;
+  color: var(--text);
+}
+
+/* LinkedIn */
+.custom-button--linkedin {
+  background-color: #0A66C2;
+  color: white;
+}
+
+.custom-button--linkedin:hover {
+  background-color: #084d92;
+  color: white;
+}
+
+/* GitHub */
+.custom-button--github {
+  background-color: #24292F;
+  color: white;
+}
+
+.custom-button--github:hover {
+  background-color: #000;
+  color: white;
+}
+
+/* Gmail */
+.custom-button--gmail {
+  background-color: #EA4335;
+  color: #FAFAFA;
+}
+
+.custom-button--gmail:hover {
+  background-color: #C5221F;
+  color: #FAFAFA;
+}

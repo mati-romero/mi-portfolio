@@ -1,0 +1,57 @@
+:root {
+  --text: #293241;
+  --amarillo-hover: #F0C747;
+  --amarillo: #FFB81C;
+  --blanco: #FAFAFA;
+  --heading: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 700;
+  color: var(--text);
+}
+
+p {
+  color: var(--text);
+}
+
+.clearText {
+  color: var(--blanco);
+}
+
+.yellowText {
+  color: var(--amarillo);
+}
+
+/* Skills Section */
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skill-badge {
+  padding: 0.5rem 0.9rem;
+
+  background-color: #3d4a5c;
+  color: #fafafa;
+
+  border-radius: 6px;
+
+  font-size: 0.9rem;
+  font-weight: 500;
+
+  transition: all 0.2s ease;
+}
+
+.skill-badge:hover {
+  background-color: #526176;
+  transform: translateY(-2px);
+}

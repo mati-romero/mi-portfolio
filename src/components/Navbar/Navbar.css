@@ -1,0 +1,8 @@
+.navbar-link {
+  color: var(--text) !important;
+  transition: color 0.2s ease;
+}
+
+.navbar-link:hover {
+  color: var(--amarillo) !important;
+}
