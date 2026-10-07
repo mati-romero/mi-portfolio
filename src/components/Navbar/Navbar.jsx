@@ -34,6 +34,12 @@ function Navbar() {
               </a>
             </li>
 
+            <li className="nav-item">
+              <a className="nav-link navbar-link" href="#projects">
+                Projects
+              </a>
+            </li>
+
             {/*<li className="nav-item">
               <a className="nav-link navbar-link" href="#skills">
                 Skills

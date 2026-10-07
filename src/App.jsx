@@ -7,6 +7,7 @@ import AboutMe from './components/AboutMe/AboutMe';
 import Skill from './components/Skill/Skill';
 import Contact from './components/Contact/Contact';
 import Career from './components/Career/Career';
+import Projects from './components/Projects/Projects';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Banner />
       <AboutMe />
       <Career />
+      <Projects />
       <Contact />
     </div>
   )
