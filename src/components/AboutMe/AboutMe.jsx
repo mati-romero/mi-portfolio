@@ -1,5 +1,5 @@
 import Button from '../Button/Button';
-import { FaLinkedin, FaDownload, FaGithub  } from 'react-icons/fa';
+import { FaDownload  } from 'react-icons/fa';
 import "./AboutMe.css";
 import draw from '../../assets/images/me.png';
 import mobileDraw from '../../assets/images/me-mobile.png';
@@ -36,16 +36,6 @@ function AboutMe() {
         <p className="clearText">I'm naturally curious, so I tend to learn by building. I like experimenting, breaking things, figuring out why they broke, and improving them along the way.</p>
 
         <p className="clearText">Right now, I'm focused on growing as a developer, building meaningful projects, and becoming better at turning complex ideas into simple digital experiences.</p>
-
-        <Button href="https://www.linkedin.com/in/mati-romero/" variant="linkedin" className="mt-3">
-            <FaLinkedin />
-            LinkedIn
-        </Button>
-
-        <Button href="https://github.com/mati-romero" variant="github" className="mt-3">
-            <FaGithub />
-            GitHub
-        </Button>
 
         <Button
           href={cv}
