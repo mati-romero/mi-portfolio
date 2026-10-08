@@ -1,5 +1,6 @@
 import ProjectCard from "../ProjectCard/ProjectCard";
-import hola from "../../assets/images/projects/chtech.png";
+import chtech from "../../assets/images/projects/chtech.png";
+import work from "./myWork";
 
 function Projects() {
   
@@ -9,71 +10,18 @@ function Projects() {
         <h2>Projects</h2>
 
         <div className="row g-4 mt-3">
-            <div className="col-12 col-md-6 col-lg-4">
+            {work.map((project, index) => (
+              <div className="col-12 col-md-6 col-lg-4" key={index}>
                 <ProjectCard
-                    title="Sistema de gestión para clínicas"
-                    description="Plataforma web para gestionar pacientes, profesionales y turnos."
-                    image={hola}
-                    skills={["React", "Node.js", "Express", "MySQL"]}
-                    link="https://mi-proyecto.com"
-                    github="https://github.com/usuario/proyecto"
+                  title={project.title}
+                  description={project.description}
+                  image={project.image}
+                  skills={project.skills}
+                  link={project.projectUrl}
+                  github={project.githubUrl}
                 />
-            </div>
-
-            <div className="col-12 col-md-6 col-lg-4">
-                <ProjectCard
-                    title="Sistema de gestión para clínicas"
-                    description="Plataforma web para gestionar pacientes, profesionales y turnos."
-                    image={hola}
-                    skills={["React", "Node.js", "Express", "MySQL"]}
-                    link="https://mi-proyecto.com"
-                    github="https://github.com/usuario/proyecto"
-                />
-            </div>
-
-             <div className="col-12 col-md-6 col-lg-4">
-                <ProjectCard
-                    title="Sistema de gestión para clínicas"
-                    description="Plataforma web para gestionar pacientes, profesionales y turnos."
-                    image={hola}
-                    skills={["React", "Node.js", "Express", "MySQL"]}
-                    link="https://mi-proyecto.com"
-                    github="https://github.com/usuario/proyecto"
-                />
-            </div>
-
-            <div className="col-12 col-md-6 col-lg-4">
-                <ProjectCard
-                    title="Sistema de gestión para clínicas"
-                    description="Plataforma web para gestionar pacientes, profesionales y turnos."
-                    image={hola}
-                    skills={["React", "Node.js", "Express", "MySQL"]}
-                    link="https://mi-proyecto.com"
-                    github="https://github.com/usuario/proyecto"
-                />
-            </div>
-
-             <div className="col-12 col-md-6 col-lg-4">
-                <ProjectCard
-                    title="Sistema de gestión para clínicas"
-                    description="Plataforma web para gestionar pacientes, profesionales y turnos."
-                    image={hola}
-                    skills={["React", "Node.js", "Express", "MySQL"]}
-                    link="https://mi-proyecto.com"
-                    github="https://github.com/usuario/proyecto"
-                />
-            </div>
-
-            <div className="col-12 col-md-6 col-lg-4">
-                <ProjectCard
-                    title="Sistema de gestión para clínicas"
-                    description="Plataforma web para gestionar pacientes, profesionales y turnos."
-                    image={hola}
-                    skills={["React", "Node.js", "Express", "MySQL"]}
-                    link="https://mi-proyecto.com"
-                    github="https://github.com/usuario/proyecto"
-                />
-            </div>
+              </div>
+            ))}
         </div>
     </div>
   );

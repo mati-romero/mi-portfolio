@@ -7,8 +7,8 @@ const ProjectCard = ({
   description,
   image,
   skills = [],
-  link,
-  github,
+  link="",
+  github="",
 }) => {
   return (
     <div className="card project-card h-100">
@@ -42,7 +42,7 @@ const ProjectCard = ({
         <div className="project-buttons mt-auto">
           {link && (
             <Button
-              href={""}
+              href={link}
               className="mt-3"
             >
               View
@@ -50,7 +50,7 @@ const ProjectCard = ({
           )}
 
           {github && (
-            <Button href="https://github.com/mati-romero" variant="github" className="mt-3">
+            <Button href={github} variant="github" className="mt-3">
               <FaGithub />
             </Button>
           )}

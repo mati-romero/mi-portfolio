@@ -37,14 +37,16 @@ function AboutMe() {
 
         <p className="clearText">Right now, I'm focused on growing as a developer, building meaningful projects, and becoming better at turning complex ideas into simple digital experiences.</p>
 
-        <Button
-          href={cv}
-          download="Matias-Romero-CV.pdf"
-          className="mt-3"
-        >
-          <FaDownload />
-          Download CV
-        </Button>
+        <div className="text-end">
+          <Button
+            href={cv}
+            download="Matias-Romero-CV.pdf"
+            className="mt-3"
+          >
+            <FaDownload />
+            Download CV
+          </Button>
+        </div>
       </div>
     </div>
   )
