@@ -17,6 +17,7 @@ function App() {
       <Banner />
       <AboutMe />
       <Career />
+      <Skill />
       <Projects />
       <Contact />
     </div>

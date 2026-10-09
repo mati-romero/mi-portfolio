@@ -29,6 +29,10 @@ p {
   color: var(--amarillo);
 }
 
+.bg-yellow {
+  background-color: var(--amarillo);
+}
+
 /* Skills Section */
 
 .skills {
