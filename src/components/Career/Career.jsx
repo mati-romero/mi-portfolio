@@ -1,3 +1,5 @@
+import Experience from '../Experience/Experience';
+
 function Career() {
 
   const gama = ["React", "Java", "Spring Boot", "MySQL", "CI/CD", "REST APIs", "GraphQL"];
@@ -7,18 +9,18 @@ function Career() {
   
   return (
 
-    <div id="career" className="p-5">
-        <h2>Education & Experience</h2>
+    <div id="career">
+        <div className="row justify-content-center">
+            <div className="col-12 col-lg-6 bg-yellow p-3 p-md-5">
+                <h2 className="clearText">Education</h2>
 
-        <div className="row mt-5 justify-content-center ">
-            <div className="col-12 col-lg-4">
-                <h3 className="yellowText">Education</h3>
+                <h3>Studies</h3>
                 <h5>Lic en Cs de la Computación - UNC</h5>
                 <p>2014 - 2017 · Race not finished</p>
 
                 <hr/>
 
-                <h3 className="yellowText">Certifications</h3>
+                <h3>Certifications</h3>
 
                 <p>• Desarrollador PHP Full Stack: Backend — UCA, 2023</p>
                 <p>• Desarrollador PHP Full Stack: Frontend — UCA, 2022</p>
@@ -31,59 +33,9 @@ function Career() {
                 <h5>English — B1 (Intermediate)</h5>
             </div>
 
-            <div className="col-12 col-lg-1"></div>
-
-
-            <div className="col-12 col-lg-7">
-                
-                <hr className="d-lg-none"/>
-
-                <h3 className="yellowText">Experience</h3>
-
-                <h5>• FULL STACK DEVELOPER — GAMA S.A.</h5>
-                <p>Aug. 2025 - Set. 2026</p>
-
-                <div className="skills mb-3">
-                    {gama.map((skill, index) => (
-                        <span className="skill-badge" key={index}>
-                            {skill}
-                        </span>
-                    ))}
-                </div>
-
-                <h5>• FULL STACK DEVELOPER — TRAYCHI</h5>
-                <p>Nov. 2024 - Aug. 2025</p>
-
-                <div className="skills mb-3">
-                    {traychi.map((skill, index) => (
-                        <span className="skill-badge" key={index}>
-                            {skill}
-                        </span>
-                    ))}
-                </div>
-
-                <h5>• FULL STACK DEVELOPER — UNIVERSIDAD CATÓLICA DE CÓRDOBA</h5>
-                <p>Jun. 2022 - May 2025</p>
-
-                <div className="skills mb-3">
-                    {ucc.map((skill, index) => (
-                        <span className="skill-badge" key={index}>
-                            {skill}
-                        </span>
-                    ))}
-                </div>
-
-                <h5>• WEB DEVELOPER — FUNDACIÓN VICENTINA</h5>
-                <p>Dec. 2020 - Mar. 2024</p>
-
-                <div className="skills mb-3">
-                    {fundacion.map((skill, index) => (
-                        <span className="skill-badge" key={index}>
-                            {skill}
-                        </span>
-                    ))}
-                </div>
-
+            <div className="col-12 col-lg-6 p-3 p-md-5">
+                <h2>Experience</h2>
+                <Experience />
             </div>
         </div>
     </div>
