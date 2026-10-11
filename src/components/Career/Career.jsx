@@ -9,7 +9,7 @@ function Career() {
   
   return (
 
-    <div id="career">
+    <div id="education">
         <div className="row justify-content-center">
             <div className="col-12 col-lg-6 bg-yellow p-3 p-md-5">
                 <h2 className="clearText">Education</h2>
@@ -33,7 +33,7 @@ function Career() {
                 <h5>English — B1 (Intermediate)</h5>
             </div>
 
-            <div className="col-12 col-lg-6 p-3 p-md-5">
+            <div id="experience" className="col-12 col-lg-6 p-3 p-md-5">
                 <h2>Experience</h2>
                 <Experience />
             </div>

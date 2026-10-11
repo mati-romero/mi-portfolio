@@ -29,8 +29,14 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link navbar-link" href="#career">
-                Education & Experience
+              <a className="nav-link navbar-link" href="#education">
+                Education
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link navbar-link" href="#experience">
+                Experience
               </a>
             </li>
 
