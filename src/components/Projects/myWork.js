@@ -6,7 +6,7 @@ const work = [
   {
     title: "Changostech",
     description:
-      "Sitio web corporativo 3D para ChangosTech, con portfolio de proyectos, navegación interactiva, contacto por WhatsApp y diseño responsive.",
+      "3D corporate website for ChangosTech, featuring a project portfolio, interactive navigation, WhatsApp contact and responsive design.",
     skills: [
       "HTML5",
       "CSS3",
@@ -25,7 +25,7 @@ const work = [
   {
     title: "Fundacion Vicentina",
     description:
-      "Sitio web institucional responsive para una fundación, con proyectos, noticias, donaciones, contacto y formulario procesado con PHP.",
+      "Responsive institutional website for a foundation, with projects, news, donations, contact and a form processed with PHP.",
     skills: [
       "HTML5",
       "CSS3",
@@ -43,7 +43,7 @@ const work = [
   {
     title: "Empire web site design",
     description:
-      "Landing page responsive inspirada en Star Wars, diseñada para simular una plataforma de reclutamiento del Imperio Galáctico.",
+      "Responsive Star Wars-inspired landing page, designed to simulate a recruitment platform for the Galactic Empire.",
     skills: [
       "HTML5",
       "CSS3",

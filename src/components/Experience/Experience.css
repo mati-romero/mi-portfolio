@@ -6,8 +6,28 @@
   margin-right: auto;
 }
 
+/* Same height for every slide: all the items stay in the layout (hidden)
+   so the carousel takes the height of the tallest one */
+
+.experience-carousel .carousel-inner {
+  display: flex;
+}
+
+.experience-carousel .carousel-item {
+  display: block;
+  flex: 0 0 100%;
+  visibility: hidden;
+}
+
+.experience-carousel .carousel-item.active,
+.experience-carousel .carousel-item-next,
+.experience-carousel .carousel-item-prev {
+  visibility: visible;
+}
+
 .experience-slide {
-  padding: 0.5rem 3.5rem 1rem;
+  height: 100%;
+  padding: 0.5rem 3rem 1rem;
 }
 
 /* Controls */

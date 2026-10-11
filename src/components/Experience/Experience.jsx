@@ -6,10 +6,10 @@ import jobs from "./myJobs";
 function Experience() {
 
   return (
-    <div id="experience" className="p-0 p-lg-5">
+    <div id="experience" className="p-0">
       <div
         id="experienceCarousel"
-        className="carousel slide experience-carousel mt-5"
+        className="carousel slide experience-carousel"
         data-bs-ride="carousel"
       >
           <div className="carousel-inner">
