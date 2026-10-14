@@ -1,6 +1,7 @@
 import chtech from "../../assets/images/projects/chtech.png";
 import empire from "../../assets/images/projects/empire.png";
 import fundacion from "../../assets/images/projects/fundacion.png";
+import rym from "../../assets/images/projects/rym.png";
 
 const work = [
   {
@@ -21,6 +22,27 @@ const work = [
     projectUrl: "https://changostech.com/",
     githubUrl: null,
     image: chtech,
+  },
+  {
+    title: "Rick & Morty Explorer",
+    description:
+      "Interactive web application built with React to explore Rick and Morty characters, episodes and locations, featuring API integration, pagination, character details and responsive design.",
+    skills: [
+      "React",
+      "JavaScript",
+      "Vite",
+      "React Router",
+      "Tailwind CSS",
+      "REST API Integration",
+      "API Data Fetching",
+      "Reusable Components",
+      "Client-Side Routing",
+      "Responsive Design",
+      "ESLint"
+    ],
+    projectUrl: "https://mati-romero.github.io/rick-morty-api/",
+    githubUrl: "https://github.com/mati-romero/rick-morty-api",
+    image: rym,
   },
   {
     title: "Fundacion Vicentina",
