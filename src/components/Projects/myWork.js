@@ -2,8 +2,49 @@ import chtech from "../../assets/images/projects/chtech.png";
 import empire from "../../assets/images/projects/empire.png";
 import fundacion from "../../assets/images/projects/fundacion.png";
 import rym from "../../assets/images/projects/rym.png";
+import fundacion2 from "../../assets/images/projects/fundacionwp.png";
+import antonellaRoggio from "../../assets/images/projects/anto.png";
 
 const work = [
+  {
+    title: "Antonella Roggio",
+    description:
+      "Professional portfolio and online CV developed with React, TypeScript and Vite. Features bilingual content in Spanish and English, professional experience, education, case studies, downloadable resumes and contact information.",
+    skills: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "CSS3",
+      "Responsive Design",
+      "Component-Based Architecture",
+      "React Hooks",
+      "Custom Hooks",
+      "Bilingual UI",
+      "Claude AI"
+    ],
+    projectUrl: "https://antonella-roggio.rocketcat.com.ar",
+    githubUrl: "https://github.com/mati-romero/antonella-roggio",
+    image: antonellaRoggio,
+  },
+ {
+    title: "Fundacion Vicentina",
+    description:
+      "Responsive institutional website developed with WordPress, featuring project showcases, news, donation information, contact sections and content management.",
+    skills: [
+      "WordPress",
+      "CMS",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Responsive Design",
+      "Theme Customization",
+      "Content Management",
+      "UI Design"
+    ],
+    projectUrl: "https://fundacionvicentina.org.ar",
+    githubUrl: "",
+    image: fundacion2,
+  },
   {
     title: "Changostech",
     description:
@@ -45,7 +86,7 @@ const work = [
     image: rym,
   },
   {
-    title: "Fundacion Vicentina",
+    title: "Fundacion Vicentina - 2020",
     description:
       "Responsive institutional website for a foundation, with projects, news, donations, contact and a form processed with PHP.",
     skills: [
